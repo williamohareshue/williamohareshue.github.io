@@ -11,12 +11,6 @@ $$\LaTeX code$$   (for display)
 
 
 $$
-\documentclass{article}
-\usepackage{amsmath}
-
-\begin{document}
-
-\[
 \begin{aligned}
 & \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi} \\
 & \frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u \\
@@ -52,7 +46,4 @@ $$
   \end{pmatrix} \\
 & e^{i\pi} + 1 = 0
 \end{aligned}
-\]
-
-\end{document}
 $$
