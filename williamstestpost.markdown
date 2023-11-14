@@ -2,17 +2,20 @@
 layout: page
 title: williamspost
 permalink: /williamspost/
+usemathjax: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Here is an inline equation: \( E = mc^2 \).
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Here is a displayed equation:
+\[ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+$$
+e = mc^2
+$$
 
-
-[jekyll-organization]: https://github.com/jekyll
+\begin{align}
+x + 3y + 4z &= 2\\
+49 + 3y - 4z &= 5\\
+z &= 4
+\end{align}
